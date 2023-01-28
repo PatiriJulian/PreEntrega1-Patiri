@@ -1,6 +1,6 @@
-function ItemListContainer () {
+function ItemListContainer(props) {
     return (
-        <p>BLA BLA</p>
+        <p>{props.greetings}</p>
     )
 }
 export default ItemListContainer
