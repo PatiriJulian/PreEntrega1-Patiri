@@ -1,7 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/NavBar/NavBar';
-
+import ItemListContainer from './components/Sections/ItemListContainer';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <> 
       <NavBar/>
       <section>
-        <p>Aca va la sección</p>
+        <ItemListContainer/>
       </section>
     </>
   )
