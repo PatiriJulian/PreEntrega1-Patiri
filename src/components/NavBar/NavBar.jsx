@@ -7,7 +7,7 @@ function NavBar () {
     <header class="header NavBarFont">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid NavBarWrapper">
-          <a class="navbar-brand NavBarFont" href="#">PatiriCalzados</a>
+          <img src="/img/logo.png" alt="" class="NavBarLogo" />
           <div class="navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav NavBarFont">
               <li class="nav-item">
