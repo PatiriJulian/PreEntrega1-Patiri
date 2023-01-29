@@ -1,14 +1,15 @@
 import CartWidget from "./CartWidget"
+import './NavBar.css'
 
 function NavBar () {
 
   return(
-    <header>
+    <header class="header NavBarFont">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Calzados</a>
+        <div class="container-fluid NavBarWrapper">
+          <a class="navbar-brand NavBarFont" href="#">PatiriCalzados</a>
           <div class="navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav NavBarFont">
               <li class="nav-item">
                 <a class="nav-link" href="#">Hombre</a>
               </li>
